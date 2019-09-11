@@ -8,6 +8,7 @@ An experimental SDK module for loading and playing sounds
 - Configure your `config.js` to include `import { AnimatedEventModule } from './animations/AnimatedEventModule.js';` and add `AnimatedEventModule` to the declaration of the `modules` array.
 - In your Referee, include `@Inject AnimatedEventModule animatedEventModule;`.
 - Include sounds in the `assets/sounds/` folder.
+- Delete any already existing `demo.js` file from `src/main/resources/view/`
 
 # Example
 
