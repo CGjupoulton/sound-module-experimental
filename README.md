@@ -14,7 +14,7 @@ An experimental SDK module for loading and playing sounds
 In your Referee's `gameTurn`:
 ```java
 // Play sound at t = 0
-ViewerEvent soundEvent = animationEventModule.createAnimationEvent("Sound", 0.0);
+ViewerEvent soundEvent = animatedEventModule.createAnimationEvent("Sound", 0.0);
 soundEvent.params.put("path", "sounds/death.wav");
 ```
 
