@@ -81,7 +81,7 @@ export class AnimatedEventModule {
 
 class SoundPlayer {
   constructor(event, layer, globalData) {
-    const realPath = assets.images[event.params.path]
+    const realPath = (assets.baseUrl ? assets.baseUrl : '') + assets.images[event.params.path]
   	var audio = globalData.sounds[event.params.path];
   	if(!audio) {
   		audio = new Audio(realPath);
