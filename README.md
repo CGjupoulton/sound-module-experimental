@@ -21,4 +21,5 @@ soundEvent.params.put("path", "sounds/death.wav");
 
 # TODO
 
+- on/off switch
 - Preload sounds instead of downloading them when first played.
